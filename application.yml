@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: CONFIG-DEFAULT
+
 # This client configuration is common and is used in all the client services
 eureka:
   client:
