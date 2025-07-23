@@ -1,1 +1,14 @@
+spring:
+  application:
+    name: CONFIG-DEFAULT
 
+# This client configuration is common and is used in all the client services
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      # Below this all are by default configured as true
+#    register-with-eureka: true
+#    fetch-registry: true
+#  instance:
+#    prefer-ip-address: true
