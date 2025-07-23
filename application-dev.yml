@@ -1,6 +1,6 @@
 spring:
   application:
-    name: CONFIG-DEFAULT
+    name: CONFIG-DEV
 
 # This client configuration is common and is used in all the client services
 eureka:
