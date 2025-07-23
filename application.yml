@@ -1,4 +1,4 @@
-# This client configuration is common and is used in all the services
+# This client configuration is common and is used in all the client services
 eureka:
   client:
     service-url:
